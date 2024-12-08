@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/Regular.ttf");
+}
+
+@font-face {
+  font-family: "OpenSans-Medium";
+  src: url("../fonts/Medium.ttf");
+}
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("../fonts/Bold.ttf");
+}
+
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url("../fonts/Light.ttf");
+}
+
+body {
+  font-family: "Open Sans";
+  min-height: 200vh;
+}
+
+.ff-light {
+  font-family: "OpenSans-Light";
+}
+
+.ff-bold {
+  font-family: "OpenSans-Bold";
+}
+
+.ff-medium {
+  font-family: "OpenSans-Medium";
+}
+
+.rounded-img-content-2 {
+  border-radius: 12px 0 0 12px;
+}
+
+.font-lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  word-wrap: break-word;
+}
+
+.font-lato {
+  font-family: "Lato", sans-serif !important;
+}
+
+.hero-section-audio-player {
+  width: 100%;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #fff;
+  font-size: 40px !important;
+  padding: 0;
+  margin-top: -15px;
+}
+
+audio::-webkit-media-controls-play-button {
+  border: 1px solid #000 !important;
+}
