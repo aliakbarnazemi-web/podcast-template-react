@@ -9,7 +9,7 @@ function HeroSection() {
       <div className="w-full 2xl:h-[830px] h-[700px] bg-cover bg-[url('https://resonator.qodeinteractive.com/wp-content/uploads/2020/12/h1-rev-bg-img.jpg')]"></div>
       <div className="absolute top-0 left-0 right-0 bottom-0 z-10 mx-auto 2xl:h-[980px] xl:h-[880px] h-[800px] flex flex-col gap-5 md:px-24 px-6 justify-end pt-[830px]">
         <div className="hero-section-content flex flex-col gap-3 justify-center items-start container mx-auto lg:px-32">
-          <h1 className='font-bold ff-bold text-4xl lg:w-1/2 w-[70%] leading-[1.3]'>
+          <h1 className='font-bold ff-bold text-4xl 2xl:text-6xl lg:w-1/2 w-[70%] leading-2'>
             New episode available now
           </h1>
           <p className='text-lg'>
@@ -25,7 +25,7 @@ function HeroSection() {
           </div>
         </div>
 
-        <div className="her-section-content-2 2xl:w-[75%] md:w-[100%] w-[90%] mx-auto mt-36 h-[291px] bg-white rounded-xl shadow-xl flex">
+        <div className="her-section-content-2 2xl:w-[75%] md:w-[100%] w-[90%] 2xl:container mx-auto mt-36 h-[291px] bg-white rounded-xl shadow-xl flex">
           <img src="images/other/image01.jpg" alt="" className='w-[253px] lg:w-[291px] rounded-img-content-2 md:block hidden' />
           <div className="content pt-[40px] px-[40px] pb-[20px] h-ful w-full">
             <div className='flex flex-col'>
@@ -53,7 +53,7 @@ function HeroSection() {
                   0:13
                 </p>
               </div>
-              <audio controls src='https://xx.sahand-music.ir/Archive/h/hayedeh/Hayedeh%20-%20Heif/08%20Khooneh%20Beh%20Khooneh.mp3' className='hero-section-audio-player'></audio>
+              <audio controls src='https://xx.sahand-music.ir/Archive/h/hayedeh/Hayedeh%20-%20Heif/08%20Khooneh%20Beh%20Khooneh.mp3' className='hero-section-audio-player mt-6'></audio>
             </div>
           </div>
         </div>
